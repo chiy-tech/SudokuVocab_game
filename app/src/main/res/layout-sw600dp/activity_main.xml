@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back5"
+    tools:context=".controller.WelcomeActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="@dimen/gap_normal"
+        android:padding="@dimen/gap_normal"
+        android:src="@drawable/v6"
+        android:text="SUDOKU VOCAB"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="28sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".controller.WelcomeActivity">
+
+        <Button
+            android:id="@+id/bt_level"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="DIFFICULTY" />
+
+        <Button
+            android:id="@+id/bt_import"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="IMPORT FILE" />
+
+        <Button
+            android:id="@+id/bt_subject"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="SUBJECT" />
+
+        <Button
+            android:id="@+id/play_button"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Play" />
+    </LinearLayout>
+</LinearLayout>

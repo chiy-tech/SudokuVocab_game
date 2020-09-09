@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back9"
+    tools:context=".controller.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".controller.WelcomeActivity">
+
+        <Button
+            android:id="@+id/bt_level"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="DIFFICULTY" />
+
+        <Button
+            android:id="@+id/bt_import"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="IMPORT FILE" />
+
+        <Button
+            android:id="@+id/bt_subject"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="SUBJECT" />
+
+        <Button
+            android:id="@+id/play_button"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Play" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="reference_grid_width">200dp</dimen>
+    <dimen name="reference_grid_height">100dp</dimen>
+    <dimen name="main_text_size">12sp</dimen>
+    <dimen name="reference_text_size">19sp</dimen>
+    <dimen name="gap_normal">30dp</dimen>
+    <dimen name="gap_small">18dp</dimen>
+    <dimen name="default_font_size">14sp</dimen>
+
+</resources>

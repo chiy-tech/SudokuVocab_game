@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_switch"
+        android:icon="@drawable/ic_compare_arrows_white_24dp"
+        android:title="@string/switch1"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_check"
+        android:icon="@drawable/ic_check"
+        android:title="@string/grid_change"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_update"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="@string/grid_change"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_setting"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/grid_change"
+        app:showAsAction="always"/>
+
+</menu>

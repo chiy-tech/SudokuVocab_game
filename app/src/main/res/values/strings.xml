@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Sudoku Vocabulary</string>
+
+    <!-- List of Languages user can select -->
+    <string-array name="languages_select">
+        <item>English</item>
+        <item>Chinese</item>
+    </string-array>
+
+    <string-array name="languages_select_foreign">
+        <item>Chinese</item>
+        <item>English</item>
+    </string-array>
+
+    <!-- List of Subjects user can select -->
+    <string-array name="subjects_select">
+        <item>Colors</item>
+        <item>Numbers</item>
+    </string-array>
+
+    <!-- Numbers translations -->
+    <string-array name="Numbers_English">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+        <item>Eleven</item>
+        <item>twelve</item>
+    </string-array>
+    <string-array name="Numbers_Chinese">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+    </string-array>
+
+    <!-- Colors translations -->
+    <string-array name="Colors_English">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Grey</item>
+        <item>Black</item>
+        <item>white</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Brown</item>
+        <item>Purple</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+    </string-array>
+    <string-array name="Colors_Chinese">
+        <item>红</item>
+        <item>绿</item>
+        <item>蓝</item>
+        <item>灰</item>
+        <item>黑</item>
+        <item>白</item>
+        <item>粉</item>
+        <item>橘</item>
+        <item>棕</item>
+        <item>紫</item>
+        <item>黄</item>
+        <item>青</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mode1"><b><i> Mode 1 </i></b>\n\nTranslate From Native Language to Foreign Language</string>
+    <string name="mode2"><b><i> Mode2 </i></b> \n\nTranslate From Foreign Language to Native Language</string>
+
+    <string name="switch1">switch</string>
+    <string name="grid_change">grid change</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".controller.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/tv_lang_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/gap_normal"
+        android:text="Language to Learn"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Spinner
+        android:id="@+id/nativeLanguage_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/gap_normal"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_lang_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Native Language"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:paddingTop="@dimen/gap_normal"
+        />
+
+    <Spinner
+        android:id="@+id/foreignLanguage_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+         />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="The group name"
+        android:maxLength="100"
+        android:singleLine="true"
+        android:visibility="visible" />
+</LinearLayout>
